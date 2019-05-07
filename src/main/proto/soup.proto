@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package tutorial;
+
+option java_package = "com.page.awesome.dto";
+option java_outer_classname = "SoupDto";
+
+
+message Soup {
+    optional string soupId = 1;
+    optional string chickenSoup = 2;
+    optional int32  soupUp = 3;
+    optional int32  soupDown = 4;
+    optional float point = 5;
+}

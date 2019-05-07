@@ -1,0 +1,13 @@
+syntax = "proto3";
+
+enum UserSex{
+ M = 0;
+ F = 1;
+}
+
+message User{
+string name = 1;
+int32 age = 20;
+UserSex sex = 3;
+
+}
