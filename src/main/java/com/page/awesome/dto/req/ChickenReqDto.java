@@ -10,5 +10,5 @@ import lombok.Data;
  **/
 @Data
 public class ChickenReqDto {
-    private String
+//    private String
 }
